@@ -661,7 +661,7 @@ function Player(props) {
                          <div className={styles.imagerow}>
                                 <div className={styles.progress}>just loading..</div>
                                 <div className={styles.imagecontainer}>
-                                    <img src="../../logo.svg" height="200px"/>
+                                    <img src="../logo.svg" height="200px"/>
                                 </div>
                                 <div className={styles.progress}>{progress}</div>
                         </div>
