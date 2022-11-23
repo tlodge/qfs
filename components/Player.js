@@ -675,7 +675,7 @@ function Player(props) {
             
             return <div className={styles.startcontainer} style={{height : node ? 'auto' : "calc(100vh - 160px)" }}>
                
-                {sources.length > 0 && !node && <div onClick={startStory} onClickCapture={playPing} className={styles.imagecontainer}><img className={styles.spinning} src="../../start.png" width="200px" /></div>}
+                {sources.length > 0 && !node && <div onClick={startStory} onClickCapture={playPing} className={styles.imagecontainer}><img className={styles.spinning} src="../start.png" width="200px" /></div>}
                 {sources.length > 0 && !node && <div onClick={startStory} onClickCapture={playPing} className={styles.progress}>Start!</div>}
                 {renderCurrentNode()}       
             </div>
