@@ -127,3 +127,87 @@
     filter: invert(1);
   }
 }
+
+
+.App {
+  
+}
+
+.line {
+  margin: 25px 0px 25px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.narrator{
+  width: 100px;
+  font-weight:700;
+}
+
+.dialogue{
+  width: 500px;
+}
+
+.actions{
+  width: 300px;
+  display: flex;
+  flex-direction:row;
+  margin: 0px 0px 0px 10px;
+  align-items:center;
+}
+
+.record{
+  padding:7px;
+}
+
+.play{
+  padding:7px;
+}
+
+.stop{
+  padding:7px;
+}
+
+.filterLine{
+  display: flex;
+  flex-direction:row;
+  padding:10px;
+  border: 1px solid black;
+  width: 640px;
+  background: #efefef;
+  margin-bottom:20px;
+  border-radius: 3px;
+}
+
+.filter{
+  font-weight: 700;
+  margin-right:10px;
+}
+
+.character{
+  margin: 0px 0px 0px 7px;
+}
+
+.toolbar{
+  width: 100vw;
+  height: 40px;
+  color: white;
+  background: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.toolbar button{
+  color: white;
+  background: transparent;
+  border: none;
+  margin: 7px;
+  font-weight: 700;
+}
+
+.toolbaritem{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}

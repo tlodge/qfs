@@ -1,0 +1,64 @@
+.container{
+    background: #0087FF;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.about{
+    color: white;
+}
+
+.download{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.consentrow{
+    padding-top:12px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clickhere{
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 3px;
+
+}
+
+.consentbox{
+   
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    height: 60px;
+    background: #1D4D78;
+}
+
+.imagerow{
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+   padding: 10px;
+}
+
+.imagecontainer{
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 40px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

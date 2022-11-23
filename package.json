@@ -10,8 +10,20 @@
     "export": "next export"
   },
   "dependencies": {
+    "@nextui-org/react": "^1.0.0-beta.10",
+    "@tensorflow-models/speech-commands": "^0.5.4",
+    "@tensorflow/tfjs": "^3.20.0",
+    "firebase": "^9.9.4",
+    "firebase-admin": "^11.0.1",
+    "fs": "^0.0.1-security",
     "next": "13.0.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "superagent": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
   }
 }
