@@ -1,0 +1,460 @@
+{
+    "ts": 1663853291445,
+    "script": [
+        {
+            "id": "Start",
+            "narrator": "Start",
+            "start": true,
+            "tracks": [
+                "ME2KIXAnux"
+            ],
+            "waypoint": true,
+            "rules": {
+                "Yes": "AboutRen",
+                "No": "QQueenElisandra"
+            },
+            "text": "Do you want to know more about Ren?\n\n",
+            "words": "Start"
+        },
+        {
+            "tracks": [
+                "HUuyveMTPm"
+            ],
+            "id": "RenAdventure",
+            "rules": {
+                "Yes": "QSet"
+            },
+            "waypoint": true,
+            "words": "RenAdventure",
+            "text": "You are meeting your friend Ren for an adventure but you have no idea of what it might entail. What are you going to pack?  You always take ROPE with you. Find some things that you think you'll need from around your house and say 'yes' when you are done.\n\n",
+            "narrator": "Waypoint",
+            "start": false
+        },
+        {
+            "tracks": [
+                "WxrZD0N2Xa"
+            ],
+            "narrator": "About-Elisandra",
+            "words": "AboutElisandra",
+            "start": false,
+            "id": "AboutElisandra",
+            "waypoint": true,
+            "rules": {
+                "8": "QGoblet",
+                "Yes": "ElisandraLooks",
+                "No": "QGoblet"
+            },
+            "text": "Do you want to know what Queen Elisandra Looks Like?\n\n\n\n"
+        },
+        {
+            "id": "AboutRen",
+            "rules": {
+                "8": "QRenFrom",
+                "Yes": "RenWearing",
+                "No": "QRenFrom"
+            },
+            "waypoint": true,
+            "words": "AboutRen",
+            "narrator": "About-Wren",
+            "start": false,
+            "text": "Do you want to know what Ren is wearing?\n\n\n",
+            "tracks": [
+                "Pipl31txAE"
+            ]
+        },
+        {
+            "waypoint": true,
+            "tracks": [
+                "POdWbm5mZW"
+            ],
+            "text": "Do you want to know what it looks like?\n\n\n\n",
+            "rules": {
+                "8": "QLairSmells",
+                "No": "QLairSmells",
+                "Yes": "DragonLooks"
+            },
+            "id": "DragonsLair",
+            "narrator": "Dragons-Lair",
+            "start": false,
+            "words": "DragonsLair"
+        },
+        {
+            "rules": {
+                "8": "QRenFrom",
+                "Yes": "RenPicture",
+                "No": "QRenFrom"
+            },
+            "narrator": "Ren-Wearing",
+            "tracks": [
+                "thTgZO1xP2"
+            ],
+            "words": "RenWearing",
+            "start": false,
+            "waypoint": false,
+            "id": "RenWearing",
+            "text": "Ren is wearing brown leather armour, mud stained boots and a green travelling cloak with a hood.  Do you want to draw a picture of Ren?\n\n \n \n "
+        },
+        {
+            "text": "Do you want to know where Ren is from?\n\n\n\n",
+            "start": false,
+            "tracks": [
+                "bmK42kwHqv"
+            ],
+            "id": "QRenFrom",
+            "waypoint": false,
+            "rules": {
+                "8": "QQueenElisandra",
+                "Yes": "RenFrom",
+                "No": "QQueenElisandra"
+            },
+            "words": "QRenFrom",
+            "narrator": "Q-Ren-From"
+        },
+        {
+            "tracks": [
+                "JqC5dtkePr"
+            ],
+            "id": "OstrinPicture",
+            "waypoint": true,
+            "text": "Great.  Remember that Ostrin is an old city with  tall towers and busy streets.\n\nSay 'yes' when you are finished drawing.\n\n",
+            "rules": {
+                "Yes": "QQueenElisandra"
+            },
+            "start": false,
+            "words": "OstrinPicture",
+            "narrator": "Ostrin-Picture"
+        },
+        {
+            "id": "RenFrom",
+            "narrator": "Ren-From",
+            "tracks": [
+                "kbg34wa3E6"
+            ],
+            "waypoint": false,
+            "text": "Ren is from Ostrin, a great city of tall towers, busy streets and green parks which stands at the heart of the Kingdom.  \n\nDo you want to draw a picture of what Ostrin looks like?\n\n\n",
+            "words": "RenFrom",
+            "rules": {
+                "8": "QQueenElisandra",
+                "No": "QQueenElisandra",
+                "Yes": "OstrinPicture"
+            },
+            "start": false
+        },
+        {
+            "id": "RenPicture",
+            "waypoint": true,
+            "text": "Great.  Let's draw something.  Say 'yes' when you are done.\n\n ",
+            "tracks": [
+                "pJrBQomZs9"
+            ],
+            "words": "RenPicture",
+            "rules": {
+                "Yes": "QRenFrom"
+            },
+            "narrator": "Ren-Picture",
+            "start": false
+        },
+        {
+            "start": false,
+            "tracks": [
+                "vgHRN1hfLQ"
+            ],
+            "words": "ElisandraLooks",
+            "id": "ElisandraLooks",
+            "narrator": "Elisandra-Looks",
+            "waypoint": false,
+            "rules": {
+                "2": "QGoblet"
+            },
+            "text": "Queen Elisandra has red-brown hair that curls past her shoulders, green eyes and a bright smile for those she cares about.  She most often wears green or deep blue gowns, and the silver circlet known as the Crown of Feathers.  The throne in her palace in Ostrin is also silver, though draped with green cloth\n\n"
+        },
+        {
+            "tracks": [
+                "0mxXGVqUeH"
+            ],
+            "id": "QGoblet",
+            "narrator": "Q-Goblet",
+            "text": "Do you want to know why Queen Elisandra wants the Silver Gobet?\n\n\n\n",
+            "start": false,
+            "words": "QGoblet",
+            "waypoint": false,
+            "rules": {
+                "8": "QRenAdventure",
+                "Yes": "SilverGoblet",
+                "No": "QRenAdventure"
+            }
+        },
+        {
+            "narrator": "Silver-Goblet",
+            "rules": {
+                "Yes": "QRenAdventure"
+            },
+            "tracks": [
+                "lQc9iKquZm"
+            ],
+            "text": "The silver goblet used to be her father’s, but was lost when the dragon attacked Greyspire Keep.  He often told her that the goblet was magical and had great powers that could help the kingdom in a time of need.  As soon as she took the throne, Queen Elisandra decided she must get the goblet back.  \n\nWhat does the goblet look like?  What magical powers do you think it has?  You could write a description of it or create a picture or diagram explaining the magic it holds. Say 'yes' when you are done.\n\n",
+            "id": "SilverGoblet",
+            "start": false,
+            "waypoint": true,
+            "words": "SilverGoblet"
+        },
+        {
+            "start": false,
+            "id": "QSet",
+            "text": "Do you want to build a set for your adventure?\n\n\n",
+            "rules": {
+                "8": "QExploreRiver",
+                "Yes": "BuildSet",
+                "No": "QExploreRiver"
+            },
+            "words": "QSet",
+            "tracks": [
+                "UWZqLVnaTZ"
+            ],
+            "narrator": "Q-Set",
+            "waypoint": false
+        },
+        {
+            "narrator": "Build-Set",
+            "tracks": [
+                "S4LqDA8x2D"
+            ],
+            "text": "Create a pathway through your space for your journey, consider levels such as under tables over sofas etc. You could use string or tape to show you the way, cushions as stepping stones, have a blanket or a couple of jumpers to represent the river.\n\nSay 'yes' when you are done\n\n ",
+            "start": false,
+            "waypoint": true,
+            "id": "BuildSet",
+            "rules": {
+                "Yes": "QExploreRiver"
+            },
+            "words": "BuildSet"
+        },
+        {
+            "text": "Do you want to find out what the river looks like?\n\n\n\n",
+            "tracks": [
+                "1WNz6BgBKc"
+            ],
+            "words": "TheRiver",
+            "waypoint": true,
+            "start": false,
+            "rules": {
+                "8": "QRiverSounds",
+                "Yes": "RiverDescription",
+                "No": "QRiverSounds"
+            },
+            "id": "TheRiver",
+            "narrator": "The-River"
+        },
+        {
+            "waypoint": false,
+            "rules": {
+                "2": "QRiverSounds"
+            },
+            "narrator": "River-Description",
+            "text": "The river is about twenty feet across, and the sunlight glitters on the surface of the water.  On the far side the road continues into the shadows under the trees.  The bridge has gone, but four large stones that once held its supports stand in the river, the fast flowing water gurgling about them.\n\n\n",
+            "tracks": [
+                "eZubN5eWx6"
+            ],
+            "words": "RiverDescription",
+            "start": false,
+            "id": "RiverDescription"
+        },
+        {
+            "waypoint": false,
+            "narrator": "Q-River-Sounds",
+            "words": "QRiverSounds",
+            "start": false,
+            "text": "Do you want to know what the river sounds like?\n\n\n\n",
+            "tracks": [
+                "UyTccR731F"
+            ],
+            "rules": {
+                "8": "QBridge",
+                "Yes": "RiverSounds",
+                "No": "QBridge"
+            },
+            "id": "QRiverSounds"
+        },
+        {
+            "start": false,
+            "tracks": [
+                "tPATBJNbPo"
+            ],
+            "text": "There is the sound of water and the wind drifting through the trees.  Hush now and see what else you can hear…\n\nPerhaps make a list of all the things you heard, or draw some of them?\n\nSay 'yes' when you are done.\n\n ",
+            "waypoint": true,
+            "words": "RiverSounds",
+            "id": "RiverSounds",
+            "rules": {
+                "Yes": "QBridge"
+            },
+            "narrator": "River-Sounds"
+        },
+        {
+            "waypoint": false,
+            "id": "QBridge",
+            "words": "QBridge",
+            "rules": {
+                "8": "QDragonsLair",
+                "Yes": "AbouttheBridge",
+                "No": "QDragonsLair"
+            },
+            "tracks": [
+                "skXp8rmTHV"
+            ],
+            "text": "Do you want to know what happened to the bridge?\n\n\n\n",
+            "narrator": "Q-Bridge",
+            "start": false
+        },
+        {
+            "id": "AbouttheBridge",
+            "rules": {
+                "Yes": "QDragonsLair"
+            },
+            "narrator": "About-The-Bridge",
+            "words": "AbouttheBridge",
+            "tracks": [
+                "RZpdxpTLpP"
+            ],
+            "start": false,
+            "waypoint": true,
+            "text": "A few weeks ago there was a great storm.  Great grey clouds rolled across the landscape as rain poured down for days on end.  The river swelled till it burst, rushing down the mountain faster than ever before.  The wooden bridge supports couldn’t stand against it and were torn away by the river, and the bridge collapsed and tumbled into the water to be washed away! \n\nImagine that the floor has become a river, and the bridge that used to cross it has now gone. How far across the room can you get without touching the floor?\n\nSay 'yes' when you are done.\n\n"
+        },
+        {
+            "start": false,
+            "waypoint": false,
+            "text": "Some parts of the walls of Greyspire Keep are still standing, but the roof is completely missing.  Broken bits of rubble lie just inside, and in the centre the dragon has used great chunks of wall and roof to build himself a nest.  The stone creates a bowl where he sleeps, curled up on his great mound of treasure - gold and silver and jewels, along with shining swords and shields and precious things.\n\n ",
+            "tracks": [
+                "dlTN9PW3UO"
+            ],
+            "narrator": "Dragon-Looks",
+            "words": "DragonLooks",
+            "rules": {
+                "2": "QLairSmells"
+            },
+            "id": "DragonLooks"
+        },
+        {
+            "id": "QLairSmells",
+            "waypoint": false,
+            "narrator": "Q-Lair-Smells",
+            "rules": {
+                "8": "QMakeLair",
+                "Yes": "LairSmells",
+                "No": "QMakeLair"
+            },
+            "words": "QLairSmells",
+            "tracks": [
+                "tgmIQ9f80d"
+            ],
+            "start": false,
+            "text": "Do you want to know what the Dragon's Lair smells like?\n\n\n\n"
+        },
+        {
+            "text": "The dragon’s lair smells of woodsmoke and sulphur, like the smell after a match has been struck.  The sharp tang of metal is strong in the air, and the crisp, cold smell like it could be about to snow at any moment.  The ruin is at the summit of the mountain, so the wind rises up through the forest on the slopes, bringing a scent of pine and earth with it.\n\n ",
+            "start": false,
+            "words": "LairSmells",
+            "rules": {
+                "2": "QMakeLair"
+            },
+            "waypoint": false,
+            "tracks": [
+                "2nDoXxiGeo"
+            ],
+            "id": "LairSmells",
+            "narrator": "Lair-Smells"
+        },
+        {
+            "words": "QMakeLair",
+            "text": "Do you want to make your own Dragon's Lair?\n\n\n\n",
+            "start": false,
+            "rules": {
+                "8": "Start",
+                "No": "Start",
+                "Yes": "MakeLair"
+            },
+            "tracks": [
+                "CAd73wTxJp"
+            ],
+            "id": "QMakeLair",
+            "waypoint": false,
+            "narrator": "Q-Make-Lair"
+        },
+        {
+            "waypoint": true,
+            "words": "MakeLair",
+            "narrator": "Make-Lair",
+            "start": false,
+            "tracks": [
+                "86szIVBkHo"
+            ],
+            "rules": {
+                "Yes": "Start"
+            },
+            "text": "Can you create the nest the dragon has created for his lair from some bedding? Can you use a cup from your house to become the goblet? What do you think the dragon looks, sounds and moves like?\n\nCan you try being the dragon?\n\nSay 'yes' when you are done.\n\n",
+            "id": "MakeLair"
+        },
+        {
+            "tracks": [
+                "AyDk6HgibH"
+            ],
+            "waypoint": false,
+            "words": "QQueenElisandra",
+            "text": "Do you want to find out more about Queen Elisandra?\n \n\n ",
+            "rules": {
+                "8": "QRenAdventure",
+                "Yes": "AboutElisandra",
+                "No": "QRenAdventure"
+            },
+            "start": false,
+            "id": "QQueenElisandra",
+            "narrator": "Q-Queen-Alesandra"
+        },
+        {
+            "start": false,
+            "words": "QRenAdventure",
+            "rules": {
+                "8": "QExploreRiver",
+                "No": "QExploreRiver",
+                "Yes": "RenAdventure"
+            },
+            "waypoint": false,
+            "narrator": "Q-Ren-Adventure",
+            "text": "Do you want to go on an adventure with Ren?\n \n\n",
+            "tracks": [
+                "DnVHZAXPTa"
+            ],
+            "id": "QRenAdventure"
+        },
+        {
+            "start": false,
+            "words": "QExploreRiver",
+            "text": "Do you want to explore the river?\n \n\n",
+            "id": "QExploreRiver",
+            "waypoint": false,
+            "narrator": "Q-Explore-River",
+            "rules": {
+                "8": "QDragonsLair",
+                "Yes": "TheRiver",
+                "No": "QDragonsLair"
+            },
+            "tracks": [
+                "2ApWKneEn6"
+            ]
+        },
+        {
+            "id": "QDragonsLair",
+            "words": "QDragonsLair",
+            "rules": {
+                "8": "Start",
+                "Yes": "DragonsLair",
+                "No": "Start"
+            },
+            "narrator": "Q-Dragons-Lair",
+            "tracks": [
+                "O7318dnJkw"
+            ],
+            "waypoint": false,
+            "text": "Do you want to explore the dragon’s lair?\n \n \n ",
+            "start": false
+        }
+    ]
+}

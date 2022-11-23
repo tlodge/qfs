@@ -1,0 +1,429 @@
+{
+    "ts": 1663931313560,
+    "script": [
+        {
+            "narrator": "Start",
+            "tracks": [
+                "070QuM8cc1"
+            ],
+            "words": "Start",
+            "start": false,
+            "text": "[Narration]\tYou're walking along a road through a green forest at the base of a solitary mountain, Greyspire Peak, heading to meet your friend and companion Ren, ready to start a new adventure.  As you round a bend in the road you see Ren ahead, standing with another figure…\n[Ren] You made it!  I was starting to get worried...  We have a job to do…\n[Torran] Ahem.\n[Ren] Right, I should make introductions.  This is Captain Torran, who serves Queen Elisandra.  He's come from the city of Ostrin, away to the west.\n[Torran] Hello adventurers.  I come at the request of the Queen to ask for your help.  At the top of this mountain stands the ruin of Greyspire Keep, which once belonged to the Queen.  10 years ago the fearsome dragon Ignithrax attacked the Keep, establishing his lair in the ruins and claiming the treasures of the keep for himself.  Her Majesty seeks the return of one of these treasures – a silver goblet decorated with four emeralds..\n[Ren] So you want us to climb the mountain and retrieve the goblet from the dragon's lair?\n[Torran] Precisely.  You'll be well-rewarded if you survive.\n[Ren] If we survive?!  I'm not sure I like the sound of that!\n[Torran] Don't worry, our watchers report the dragon sleeps a lot these days, well fed on the giant boar that roam the mountain.\n[Ren] Well, alright then.  I guess we'd better get started…\n[Torran] There are many ways up the mountain, adventurers, and may be many challenges along the way!  Good luck! ",
+            "id": "Start",
+            "rules": {
+                "1": "Powder"
+            },
+            "waypoint": true
+        },
+        {
+            "narrator": "Travel-Onward",
+            "words": "TravelOnward",
+            "waypoint": true,
+            "rules": {
+                "yes": "TheRiver"
+            },
+            "text": "[Narration] You follow the road as it emerges from the trees and curves to begin the ascent of Greyspire Peak.  It's easy going at first, then the road gets a little steeper as you get higher, before levelling out again once you are well above the tops of the forest trees…\n[Narrator] Can you create a journey around the space you are in, moving over and under the things you find?  Describe, with your other companions, the mountain landscape you're travelling through. When you're ready to continue the adventure, say 'Yes'. ",
+            "start": false,
+            "id": "TravelOnward",
+            "tracks": [
+                "V2fbPMTwiu"
+            ]
+        },
+        {
+            "narrator": "The-River",
+            "start": false,
+            "waypoint": true,
+            "tracks": [
+                "QWF6x5L0co"
+            ],
+            "words": "TheRiver",
+            "rules": {
+                "1": "TheRiverII"
+            },
+            "text": "[Ren] Can you hear that?  Sounds like flowing water…  And there's a sign at the side of the road.  'Toll bridge ahead…'\n[Ren] It's a river!  But where's the bridge?\n[Tollperson] Bridge is closed!\n[Ren] What bridge?\n[Tollperson] Well, alright, not so much 'closed' as 'gone'.  But either way, you can't cross it.\n[Ren] I can see that.  What happened?\n[Tollperson] It was an old bridge, and the wood was rotting through…  the river was flowing faster after a storm and the struts couldn't take it and the whole thing was washed away.\n[Ren] But we need to cross the river!\n[Tollperson] Well you can't use the bridge any more, obviously.  All that's left is the supports, see?\n[Ren] You mean those big stones?\n[Tollperson] That's right.\n ",
+            "id": "TheRiver"
+        },
+        {
+            "tracks": [
+                "ICK2yLSigZ"
+            ],
+            "rules": {
+                "1": "Escape"
+            },
+            "text": "[Ren] Made it!  Thank goodness for that.  The road picks up again on this side, that's good!  We're getting higher now, but there's still a way to go.  We'd better keep moving…\n[Narration] As you move on the road gets thinner, becoming more like a path and winding through the sparse collection of trees that have grown on the mountain side…\n[Ren] The trees are getting thinner again now…  The summit still looks a long way off though.\n[Osrik] Greetings travellers!\n[Ren] Who's that?  A stranger up ahead…  they're dressed like a hunter..\n[Osrik] Hello!  Name's Osrik.  What brings you to these parts?\n[Ren] We're on a quest to the summit.\n[Osrik] Really?  You're a braver group than me, that's for sure.\n[Ren] What are you doing out here then?\n[Osrik]\tI'm hunting giant boar.  They roam the slopes of the mountain, and-\n[Ren] What's that noise?\n[Osrik] Oh dear…  Sounds like trouble…\n[Ren] It's getting louder…  and closer!\n[Osrik] It could be the boar stampeding.  It happens when the dragon hunts.\n[Ren] Stampeding?  But it sounds like they're coming this way!\n[Osrik] If they are, we're in trouble!\n",
+            "waypoint": true,
+            "narrator": "Boar-Stampede",
+            "words": "BoarStampede",
+            "id": "BoarStampede",
+            "start": false
+        },
+        {
+            "tracks": [
+                "eROxkgascP"
+            ],
+            "text": "[Narration] The path winds on and upward and you keep walking.  The forest where you began your journey is far below now, and you can see the land laid out like a blanket beyond it…\n[Ren] I don't know about you all, but I am getting tired!  Maybe we should take a rest.  I don't like the look of that sky, either – all grey and ominous…\n[Ren] It looks likes Osrik was right about the storm!  What are we going to do?  (Beat)  Maybe we can build a shelter to protect us from the storm, and we wait it out!\n[Ren] It's getting closer, but I think we've got a few minutes.  I'm sure if we all work together we can build a shelter in time!\n[Narrator] Can you build a den to take shelter? You will need to work together on this! Once your shelter is ready, say 'Yes' to continue the adventure.\n ",
+            "start": false,
+            "words": "TheStorm",
+            "narrator": "The-Storm",
+            "rules": {
+                "yes": "AnOgre"
+            },
+            "id": "TheStorm",
+            "waypoint": true
+        },
+        {
+            "waypoint": true,
+            "start": false,
+            "rules": {
+                "1": "OgreChoice"
+            },
+            "words": "AnOgre",
+            "text": "[Ren] Just in time!  Good work everyone, this will keep us nice and cosy for a while!\n[Ren] There, the skies are clearing again.  Let's keep heading for the summit!\n[Narration]\tThe mountainside has been washed clean by the rain and the going is easier, though there are some muddy patches of the path.  You wend your way around the mountain, still climber ever higher and higher…\n[Ren] Hold on a minute…  Can you smell that?  Woodsmoke, and…  something cooking!  Someone's made a camp up ahead!  I wonder who it is…\n[Ren] I can see the camp ahead…  There's a fire and someone's definitely cooking, but…  They're a LOT bigger than you or I…  Oh no, quick, duck down!\n[Grom] Eh?  Whozat?\n[Ren] It's an ogre!  He's camped right by the path, and he's cooking something…  Now ogre's aren't usually friendly, but we should probably check.  Let's move a little closer and see if we can find out more…\n[Grom] Pork and mushrumps it is, always pork and mushrumps…  Never a good bit of yooman to be 'ad these days.\n[Ren] 'Never a good bit of yooman'?!  I don't like the sound of that, do you?  Sounds like that ogre wants something different for dinner!  I think our only choice is to sneak past him if we can.\n[Grom] Stupid dragon frightenin' off all the yoomans…  Dunno what's so special about treasure anyways…\n",
+            "tracks": [
+                "hA527OL0q3"
+            ],
+            "id": "AnOgre",
+            "narrator": "An-Ogre"
+        },
+        {
+            "id": "TheRavine",
+            "words": "TheRavine",
+            "tracks": [
+                "5XwgrmJUwE"
+            ],
+            "waypoint": true,
+            "start": false,
+            "rules": {
+                "1": "CrossTheBridge"
+            },
+            "narrator": "The-Ravine",
+            "text": "[Ren] Made it!  Well done everyone!  Let's keep going, we want to get away from that ogre as quick as we can, and we're nearly there now!\n[Narration] As you reach the summit of Greyspire Peak you are almost level with the clouds.  Before you lies a deep ravine, and beyond it the path leads right up to the broken gates of the keep.  You can see that once there was a stone bridge that crossed the ravine, but all that is left is a stone post on the far side, with an eagle carved atop it…\n[Ren] What's this?  Captain Torran didn't say anything about a ravine!  What happened to the bridge?\n[Stoney] It fell.\n[Ren] When did that happen?\n[Stoney] It's quite a recent development.\n[Ren] Oh, well that's-  Hang on!  Who's talking?!\n[Stoney] Over here, on the other side.  On the post.  The stone eagle?  Hello.\n[Ren] How…?\n[Stoney] I'm enchanted.  I used to be a watchbird of sorts, keeping an eye on those who crossed the bridge and warning against intruders.  Not much call for it nowadays, of course, with His Scaly Meanness in residence.\n[Ren] Do you know how we can get across?\n\n"
+        },
+        {
+            "narrator": "Dragons-Lair",
+            "id": "DragonsLair",
+            "rules": {
+                "Two": "Lasso",
+                "One": "SneakSteal",
+                "Three": "PepperPowder"
+            },
+            "words": "DragonsLair",
+            "text": "[Ren]\tWe made it!  Now then, on to the keep and to find the silver goblet!  We best be quiet though, just in case Ignithrax is awake!\n\n[Narration]\tThe path leads straight from the ravine to the crumbled stone ruin of Greyspire Keep.  As you draw close, moving cautiously, you see the ruin is lit by small fires, probably a result of the dragon’s presence.  The front wall to the great hall has tumbled down and within you can see piles of treasure glinting in the firelight.  Treasure is not the only thing you can see, however…\n\n[Ren]\tEveryone freeze!  Ignithrax is there, I can see him curled about the treasure…  And look there!  Right under his nose, on the top of that pile, a silver goblet!\n\n[Ren]\tHow can we get it, with the dragon right there?\n\n[Ren]\tWe could sneak in, and one of us can take the goblet and we’ll pass it down the line…  Or maybe we could get a rope and try to lasso the goblet and drag it carefully away?  Wait, I’ve just remembered!  Captain Torran gave us the bottle of dragon pepper powder!  We could throw that at the dragon’s head, and when he goes off to wash his face we can take the goblet!  What do you think we should try?\n\n[Narrator]\tHow do you want to get the goblet?  If you want to try and sneak in and steal it, say ‘One.’  If you want to use rope to try and lasso the goblet, say ‘Two’.  If you want to use the dragon pepper powder to drive Ignithrax away, say ‘Three’.\n\n \n \n ",
+            "waypoint": true,
+            "start": false,
+            "tracks": [
+                "VxvzdSBkpF"
+            ]
+        },
+        {
+            "rules": {
+                "5": "restart"
+            },
+            "tracks": [
+                "m5NxNbiQ3o"
+            ],
+            "words": "Finale",
+            "text": "[Ren] Okay, that's it!  We've got the goblet, we just need to get everyone out…\n[Ren] We did it!  Amazing!  Right, let's get away from here before Ignithrax notices!  Well done everyone!\n[Narration] You set off back across the ravine and begin the journey back down the mountain, avoiding the challenges you've already met on the way, until at last you arrive back where you started and find Captain Torran waiting for you.\n[Torran] You did it!  Amazing!  Thank you all, on behalf of Queen Elisandra.  She will be relieved to know the goblet is safe, and will be pleased to hear there are so many brave adventurers in her kingdom!  Here's your promised reward, and don't be surprised if you hear from me again soon!\n[Narrator] Well done for completing the adventure!  Can you open the reward? What is it? How do you react? \n",
+            "waypoint": true,
+            "narrator": "Finale",
+            "start": false,
+            "id": "Finale"
+        },
+        {
+            "waypoint": false,
+            "tracks": [
+                "q9ylt37sfR"
+            ],
+            "id": "TheRiverII",
+            "rules": {
+                "two": "Crocodile",
+                "one": "Jump"
+            },
+            "text": "[Ren]\tThere’s four of them, I suppose we could jump between them…  They look pretty slippery though…  Why don’t we swim?\n\n[Tollperson]\tYou can’t swim!  The water’s much too strong, not to mention the crocodiles.\n[Ren]\tAre there crocodiles in the river?\n\n[Tollperson]\tLook over there.  You see that thing a bit like a log floating by the far bank?  \n[Ren]\tOh yes, I see it…  Oh my goodness, it’s an enormous crocodile!\n\n[Tollperson]\tYup.  Chomp you down in a second, they would.  It’s like my grandad used to say, the only thing a crocodile likes more than adventurers is a cheese and pickle sandwich.\n[Ren]\tHey, hang on!  I’ve got a cheese and pickle sandwich in my pack!  Maybe if we give that to the crocodile, they’d give us a ride across the river?\n\n[Tollperson]\tLook it doesn’t matter how you get across, ‘cos you haven’t paid the toll yet!\n\n[Ren]\tWhat?\n\n[Tollperson]\tNobody crosses the bridge without paying the toll!\n\n[Ren]\tBut we’re not crossing the bridge, we’re crossing the river.\n\n[Tollperson]\tBut…  I…  Well…  Oh.\n[Ren]\tOkay, so what do you think we should do?  We can jump the stones, or try and get a ride across on a crocodile.\n\n[Narrator]\tHow will you get across the river?  If you want to jump across using the stones, say ‘One.’  If you want to offer a crocodile Ren’s sandwich in exchange for a ride, say ‘Two’.\n\n\n \n",
+            "start": false,
+            "narrator": "The-River-II",
+            "words": "TheRiverII"
+        },
+        {
+            "waypoint": false,
+            "id": "Escape",
+            "start": false,
+            "words": "Escape",
+            "rules": {
+                "one": "Climb",
+                "two": "Distract"
+            },
+            "narrator": "Escape",
+            "tracks": [
+                "gvdaczvHs6"
+            ],
+            "text": "[Ren]\tThey’re coming closer!  What shall we do?\n\n[Osrik]\tMaybe we can climb on things to get out of their path?\n\n[Ren]\tOr can we distract them with something?  Have you got any food?\n\n[Osrik]\tOnly my lunch.\n\n[Ren]\tWe could throw that in their path!\n\n[Osrik]\tBut it’s my lunch!\n\n[Ren]\tWhat should we do?\n\n[Narrator]\tHow will you avoid the stampede?  If you want to climb high to avoid the boars, say ‘One.’  If you want to distract them with Osrik’s lunch, say ‘Two’.\n\n \n"
+        },
+        {
+            "text": "[Ren]\tI don’t know about you, but I don’t want to end up in an ogre cookpot.  How are we going to get past him?  We could try sneaking past quietly…  Or maybe we could dig a tunnel underneath his camp and sneak past that way?  Or, hang on!  I’ve got some numbwort in my medicine pack.  You can use it to help with cuts, but if you eat it, then it sends you to sleep!  We could try and throw a handful into the ogre’s cookpot!  Then when he tastes it, he’ll doze off!  What do you think we should do?\n\n[Narrator]\tHow will you get past the ogre?  If you want to sneak past quietly, say ‘One’.  If you want to try and tunnel underneath his campsite, say ‘Two’.  If you want to try and throw some numbwort into his cookpot to send him to sleep, say ‘Three’.\n\n \n \n ",
+            "id": "OgreChoice",
+            "words": "OgreChoice",
+            "waypoint": false,
+            "start": false,
+            "narrator": "Ogre-Choice",
+            "rules": {
+                "One": "SneakPast",
+                "Two": "Tunnel",
+                "Three": "Numbwort"
+            },
+            "tracks": [
+                "EnME71ISKW"
+            ]
+        },
+        {
+            "id": "CrossTheBridge",
+            "rules": {
+                "Two": "TreeBridge",
+                "Three": "ClimbDown",
+                "One": "RopeBridge"
+            },
+            "waypoint": false,
+            "narrator": "CrossTheBridge",
+            "start": false,
+            "words": "CrossTheBridge",
+            "tracks": [
+                "lK5BPgbVTh"
+            ],
+            "text": "[Stoney] Can you fly?\n\n[Ren] No.\n\n[Stoney] Me neither.  I really wish I could.  But if you can fly then I don't know what to suggest really.  Unless you have rope?\n\n[Ren] Yes!  Can you catch it if we throw it?\n\n[Stoney] Well, no.  I'm made of stone.  But maybe you can make a loop and throw it over me?  Then you can make a rope bridge.\n\n[Ren] That could work…  There’s a tree over there, perhaps we could chop that down as a makeshift bridge instead?  Or, maybe we could just climb down one side of the ravine and up the other?  What should we do?\n\n[Narrator]\tHow do you want to cross the ravine?  If you want to try and make a rope bridge, say ‘One.’  If you want to use the tree to make a bridge, say ‘Two’.  If you want to try climbing down and then up the other side of the ravine, say ‘Three’.\n\n \n \n "
+        },
+        {
+            "start": false,
+            "words": "restart",
+            "tracks": [],
+            "waypoint": false,
+            "text": "",
+            "id": "restart",
+            "rules": {}
+        },
+        {
+            "tracks": [
+                "7CCpEOlE2B"
+            ],
+            "id": "Introduction",
+            "text": "[Naration] Hello!  Are you ready to go on an adventure?  I’ll be telling you part of the story, but you’ll meet lots of other characters along the way.  Sometimes you’ll even have choices to make to decide what happens in the adventure, so listen well and get ready to use your imagination.  \nSay ‘yes’ when you are ready to begin…\n",
+            "start": true,
+            "rules": {
+                "yes": "Start"
+            },
+            "words": "Introduction",
+            "waypoint": false,
+            "narrator": "Introduction"
+        },
+        {
+            "id": "Jump",
+            "waypoint": false,
+            "rules": {
+                "Yes": "BoarStampede"
+            },
+            "tracks": [
+                "P9QdkoE8Qr"
+            ],
+            "narrator": "Jump",
+            "words": "Jump",
+            "text": "[Ren]\tI think you’re right – jumping is the best idea.  Let’s give this a try…\n[Narrator]\tCan you cross the river, jumping from stone to stone? Be careful!  They are slippery and not very even!\nOnce you’re across the river, say ‘Yes’ to continue the adventure.\n",
+            "start": false
+        },
+        {
+            "tracks": [
+                "bvLwb0koDs"
+            ],
+            "narrator": "Crocodile",
+            "waypoint": false,
+            "id": "Crocodile",
+            "text": "[Ren]\tI was really looking forward to this sandwich, but it’s worth it to get across the river.  Let’s see if we can get the crocodile’s attention.  Hello!  Oh crocodile!  Look, it’s swimming over!  Blimey, it’s really big.  I hope this works!\n[Crocodile]\tI was having a lovely snooze just then.  What did you wake me up for?\n[Ren]\tOh hello.  We were wondering if you’d be willing to carry us across the river?\n[Crocodile]\tCarry you?  Why should I?  Why don’t I just eat you up instead?\n[Ren]\tWell, if you carry us across, you can have this cheese and pickle sandwich…\n[Crocodile]\tI love cheese and pickle!  I’ll do it!  Come on then, balance on my back and I’ll swim across to the other side. \n[Narrator]\tCan you balance on the crocodile’s back as they swim across the river?  How easy is it to keep your balance?  Do you get splashed?  Once you reach the other side, Ren gives the sandwich to the crocodile, who gobbles it down. Once you’re safely across the river, say ‘Yes’ to continue the adventure.\n\n\n",
+            "start": false,
+            "words": "Crocodile",
+            "rules": {
+                "Yes": "BoarStampede"
+            }
+        },
+        {
+            "id": "Climb",
+            "tracks": [
+                "TuFfhNMATE"
+            ],
+            "rules": {
+                "1": "TheStorm"
+            },
+            "narrator": "Climb",
+            "text": "[Ren]\tRight, everyone find something to climb, we have to get off the ground so the boars can pass by!\n[Narrator]\tThe boars are rushing towards you.  Can you use the landscape you’re in to climb up off the ground and then hold very still whilst they pass?\n[Ren]\tHold on tight!  Here they come!\n[Ren]\tPhew!  That was close!\n[Osrik]\tThey don’t do that often, we were lucky!\n[Ren]\tThanks for your warning Osrik, but we’d better keep going.  We’ve got to reach the summit!\n[Osrik]\tGood luck!  But be careful, looks like there might be a storm coming…\n ",
+            "start": false,
+            "words": "Climb",
+            "waypoint": false
+        },
+        {
+            "waypoint": false,
+            "id": "Distract",
+            "words": "Distract",
+            "text": "[Ren]\tI’m sorry Osrik, but we’ve got no choice!\n[Osrik]\tOh, I suppose not.  Fine.  Here you go.\n[Narrator]\tThe boars are rushing towards you.  Can you find some items which you can pretend is Osrik’s lunch?  Throw it to one side of the path to distract the boars with food!\n[Ren]\tHere they come!  Throw it!\n[Ren]\tIt worked!\n[Osrik]\tNot for long, look, they’ve nearly finished!  Quick, let’s go whilst they’re eating!\n[Narration]\tYou move quickly along the road, leaving the boars behind you.\n[Ren]\tI think we’re safe now, they’re moving away!\n[Osrik]\tThey don’t do that often, we were lucky, I suppose.\n[Ren]\tSorry about your lunch, Osrik, but thanks for your warning.  We’d better keep going.  We’ve got to reach the summit!\n[Osrik]\tGood luck!  But be careful, looks like there might be a storm coming…\n ",
+            "rules": {
+                "1": "TheStorm"
+            },
+            "narrator": "Distract",
+            "tracks": [
+                "FP674s2yRF"
+            ],
+            "start": false
+        },
+        {
+            "tracks": [
+                "Dt68f5kNfM"
+            ],
+            "text": "[Ren]\tOkay, we can get a little closer, but then we have to try and throw the numbwort so it lands in the cookpot!\n[Narrator]\tCan you find something in your space to be Grom’s cookpot, and some small things to throw?  You could use a cushion or something else to represent Grom, and try to throw the numbwort into the pot when he isn’t looking.\nWhen you’ve got the numbwort into the pot, say ‘Yes’ to continue the adventure.\n",
+            "words": "Numbwort",
+            "start": false,
+            "id": "Numbwort",
+            "waypoint": false,
+            "rules": {
+                "Yes": "GromSleep"
+            },
+            "narrator": "Numbwort"
+        },
+        {
+            "text": "[Ren] Right, sneaking it is.  Look, he’s even started dozing off where he’s sitting.  Come on, move as quietly as you can…\n[Narrator]\tCan you try creeping past the ogre? Every time Grom makes a noise, you must freeze in your tracks and not make a sound!\n \n",
+            "id": "SneakPast",
+            "start": false,
+            "tracks": [
+                "MhiTJ6Z7w6"
+            ],
+            "waypoint": false,
+            "narrator": "Sneak-Past",
+            "rules": {
+                "1": "TheRavine"
+            },
+            "words": "SneakPast"
+        },
+        {
+            "waypoint": false,
+            "start": false,
+            "tracks": [
+                "yySDADPRLN"
+            ],
+            "words": "Tunnel",
+            "text": "[Ren]\tRight.  Tunnelling isn’t going to be easy, but we’ll give it a go!\n[Narrator]\tCan you create a tunnel underneath Grom’s camp?  Perhaps you can use a table or chairs to crawl under.  Even though you’re underground to need to be quiet! Every time the Grom makes a noise, you must freeze in your tracks and not make a sound!\n \n",
+            "narrator": "Tunnel",
+            "rules": {
+                "1": "TheRavine"
+            },
+            "id": "Tunnel"
+        },
+        {
+            "text": "[Grom]\tRight then, let’s see how this pork and mushrumps is tastin’…\n[Grom]\tTha’s lovely that is, even if it isn’t yooman.   But all this cookin’s made me tired…\n[Ren]\tIt’s working!  He’s going to sleep!  Now’s our chance!  He shouldn’t wake up now, but let’s be careful just in case!\n[Narrator]\tCan you creep carefully past the sleeping ogre? Every time the Grom makes a noise, you must freeze in your tracks and not make a sound!\n ",
+            "narrator": "Grom-Sleep",
+            "rules": {
+                "1": "TheRavine"
+            },
+            "waypoint": false,
+            "id": "GromSleep",
+            "words": "GromSleep",
+            "start": false,
+            "tracks": [
+                "27ogWxzHgS"
+            ]
+        },
+        {
+            "tracks": [
+                "7X5gweGtcZ"
+            ],
+            "id": "RopeBridge",
+            "rules": {
+                "Yes": "DragonsLair"
+            },
+            "text": "[Ren] I agree, the rope bridge seems the best idea.  I’ll give it a try…  Three, two, one, hup!\n[Stoney]\tYou missed!\n[Ren]\tOh no, I couldn’t throw it far enough!\n[Stoney]\tWhy don’t you ask your friends to help?\n[Ren]\tThat’s a great idea!  Will you help me?  If we throw together, I’m sure we can do it!  Right, take hold of the rope.  Are you ready?  One… two… three…  throw! \n[Stoney]\tThat’s it!\n[Ren]\tWell done!  Okay, let’s secure this end and we can cross over…  very carefully!\n[Narrator]\tCan you cross the rope bridge, tiptoeing one foot in front of the other, trying not to fall in?\nOnce you are across the bridge, say ‘Yes’ to continue the adventure.\n ",
+            "narrator": "Rope-Bridge",
+            "start": false,
+            "words": "RopeBridge",
+            "waypoint": false
+        },
+        {
+            "words": "TreeBridge",
+            "waypoint": false,
+            "id": "TreeBridge",
+            "start": false,
+            "rules": {
+                "Yes": "DragonsLair"
+            },
+            "narrator": "Tree-Bridge",
+            "text": "[Ren]\tI think you’re right, this tree will make a sturdier bridge than rope!  But how are we going to chop it down?\n[Bart Beech]\tChop me down?!  No thank you!\n[Ren]\tWho said that?\n[Bart Beech]\tI did!  Bartholomew Beech, at your service!\n[Ren]\tOh, um, hello.\n[Bart Beech]\tNow why exactly do you want to chop me down?\n[Ren]\tWell, we need to cross the ravine.  We’re on a quest, you see.\n[Bart Beech]\tIs it an important quest?\n[Ren]\tVery important.  It’s for the queen.\n[Bart Beech]\tOh well, that certainly sounds important!  Alright, why don’t I lean over, and you can walk across my back to the other side.  Then I’ll just stand up again.\n[Ren]\tCan you do that?\n[Bart Beech]\tOf course.  I’m very flexible.  I do pila-trees, you know.\n[Ren]\tThat would be really helpful, thank you!\n[Ren]\tThat’s fantastic, we can cross now!  Come on!\n[Narrator]\tCan you walk carefully along Bartholomew’s trunk across the ravine.   You’ll have to twist and dodge around all the branches. Be careful, because it’s a LONG way down!  Once you’re all across, Bartholomew straightens up again. Once you are across the ravine, say ‘Yes’ to continue the adventure.\n",
+            "tracks": [
+                "fcWgFU3K6z"
+            ]
+        },
+        {
+            "waypoint": false,
+            "text": "[Ren]\tOkay.  It’s a long way down, but I think we should be able to climb…  Here I go!\n[Narration]\tRen goes first, lowering herself over the edge of the ravine.  You watch as she skilfully lowers herself down the side of the ravine, finding foot and handholds in the rockface.  But when she’s about twenty feet below you she stops.  After looking about for a few minutes, she quickly climbs back to join you on the ledge.\n[Ren]\tIt’s no good, I couldn’t go any further!  The wall slopes away and there’s nothing to hold on to.  I guess we’ll have to try one of the other ways instead.  But which one?\n[Narrator]\tHow do you want to cross the ravine?  If you want to try and make a rope bridge, say ‘One.’  If you want to use the tree to make a bridge, say ‘Two’.\n \n ",
+            "rules": {
+                "Two": "TreeBridge",
+                "One": "RopeBridge"
+            },
+            "narrator": "Climb-Down",
+            "id": "ClimbDown",
+            "words": "ClimbDown",
+            "start": false,
+            "tracks": [
+                "ln1fTwidhv"
+            ]
+        },
+        {
+            "waypoint": false,
+            "id": "SneakSteal",
+            "words": "SneakSteal",
+            "tracks": [
+                "CzBLSDGOw0"
+            ],
+            "rules": {
+                "Yes": "Finale"
+            },
+            "start": false,
+            "text": "[Ren] We’ll sneak in!  It’ll be like the ogre, but…  Well, more dangerous.  But it’ll be fine.  We can go in one after the other and make a chain of people…  Someone has to get the goblet, and then we can pass it down the line…  But be as quiet as possible – don’t wake the dragon!\n[Narrator]\tCan you sneak into the ruins without waking the dragon? How heavy is the cup? Do you make any mistakes? Remember, you must only whisper to each other so you don’t wake the dragon!  When you’ve got the goblet, pass it along the line to get it away from the dragon. Once you have retrieved the goblet, whisper ‘Yes’ to continue the adventure.\n \n",
+            "narrator": "Sneak-Steal"
+        },
+        {
+            "waypoint": false,
+            "narrator": "Lasso",
+            "id": "Lasso",
+            "tracks": [
+                "wxMiQxPMGJ"
+            ],
+            "text": "[Ren]\tWe’ll use the rope!  It’ll be like fishing for treasure!  Let me make a loop at one end, and then we can give it a try!\n[Narrator]\tCan you find something at home to be the silver goblet, and some string or something similar to be your rope?  Can you lasso the goblet and drag it carefully away from the dragon?  How heavy is the cup? Does it get stuck on anything? Remember, you must go slowly and carefully so as to not wake the dragon! Once you have retrieved the goblet, whisper ‘Yes’ to continue the adventure.\n \n",
+            "words": "Lasso",
+            "start": false,
+            "rules": {
+                "Yes": "Finale"
+            }
+        },
+        {
+            "text": "[Ren]\tWe’ll use the dragon pepper powder Captain Torran gave us!  I’ll throw it as close to the dragon’s nose as I can, but we’d better all find places to hide ready for when he wakes up sneezing!\n[Narrator]\tCan you find a hiding place, ready for when the dragon wakes up?  What else is nearby?  Are you behind a chunk of wall or a pile of treasure?\n[Ren]\tEveryone safe?  Right, here goes nothing!\n[Ren] I got him right on the nose!  Uh oh…!\n[Ren]\tIt worked!  He’s gone!  Now to take the goblet!\n[Narrator]\tYou find the goblet amongst the dragon’s huge treasure hoard, and quickly escape from the ruined keep.\n ",
+            "words": "PepperPowder",
+            "waypoint": false,
+            "rules": {
+                "1": "Finale"
+            },
+            "id": "PepperPowder",
+            "start": false,
+            "narrator": "Pepper-Powder",
+            "tracks": [
+                "RfgxuG8tX8"
+            ]
+        },
+        {
+            "narrator": "Powder",
+            "waypoint": false,
+            "rules": {
+                "2": "TravelOnward"
+            },
+            "words": "Powder",
+            "text": "[Toran] But just in case, take this along with you.\n[Ren] Ooooh it's a bottle filled with bright purple powder.  But... what is it for?\n[Toran] This is a vial of dragon pepper.  If Ignithrax breathes it in, he won’t be able to stop sneezing until he’s dunked his face in a lake.  So if you find yourself in a tight spot, it might come in handy.\n[Ren] Thank you, Captain Torran!\n[Torran] You’re welcome.  I hope it helps!\n[Ren] Well, alright then.  I guess we'd better get started…\n[Torran] There are many ways up the mountain, adventurers, and may be many challenges along the way!  Good luck! ",
+            "start": false,
+            "id": "Powder",
+            "tracks": [
+                "eJeVnUAUHS"
+            ]
+        }
+    ]
+}
